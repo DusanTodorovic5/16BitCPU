@@ -29,7 +29,7 @@ This is fully functional CPU for which you can write your own program in his ass
       - LD  - 0011 0000  - Loads into the Accumulator
       - ST  - 0011 0001  - Stores to the memory location
       - JADR  - 0011 0010  - Jumps to the address
-      - TST  - 0011 0011  - Logical and the Accumulator and second operand without changing the accumulator, only updating PSW
+      - TST  - 0011 0011  - "Logical and" ("&")  of the Accumulator and second operand without changing the accumulator value, thus only updating PSW
       - XOR  - 0011 0100  - XOR with changing the accumulator
       - STRLEN  - 0011 0101  - Measures length of a string, operand is a pointer to the string, 00h  is regarded as the end of the string character
 
